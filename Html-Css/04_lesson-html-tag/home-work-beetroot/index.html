@@ -14,23 +14,23 @@
                 <nav class="nav">
                     <ul class="menu">
                         <li class="menu__item">
-                            <a href="#home">Home</a>
+                            <a class="link" href="#home">Home</a>
                         </li>
 
                         <li class="menu__item">
-                            <a href="#about">Обо мне</a>
+                            <a class="link" href="#about">Обо мне</a>
                         </li>
 
                         <li class="menu__item">
-                            <a href="#skills">Навыки</a>
+                            <a class="link" href="#skills">Навыки</a>
                         </li>
 
                         <li class="menu__item">
-                            <a href="#portfolio">Портфолио</a>
+                            <a class="link" href="#portfolio">Портфолио</a>
                         </li>
 
                         <li class="menu__item">
-                            <a href="#contacts">Контакты</a>
+                            <a class="link" href="#contacts">Контакты</a>
 
                         </li>
                     </ul>
@@ -84,6 +84,18 @@
 
                     </p>
 
+                    <p class="text">
+                        Нажав на эту картинку
+                        <a
+                            href="https://dan-it.com.ua/uk/blog/rozrobka-z-boku-front-end-shho-ce-take-i-chim-vidriznjaietsja-vid-back-end">
+                            <img src="./img/sign.png" alt="?" width="25">
+                        </a>
+                        вы можете ознакомиться с
+                        какими задачами вам может
+                        помочь
+                        Front-End разработчик
+                    </p>
+
 
                 </div>
 
@@ -124,8 +136,8 @@
             <section class="portfolio" id="portfolio">
                 <div class="container">
                     <h2 class="h2">Портфолио</h2>
-                    <p>Здесь вы можете ознакомиться со списком моих работ:
-                        <a href="https://github.com/VolodymyrMyroshnychenko?tab=repositories">
+                    <p class="text">Здесь вы можете ознакомиться со списком моих работ:
+                        <a class="link" href="https://github.com/VolodymyrMyroshnychenko?tab=repositories">
                             <img src="./img/github.png" alt="github" width="30">
                         </a>
 
@@ -138,11 +150,45 @@
             <br>
             <br>
 
-            <section class="Contacts" id="contacts">
-                <h2 class="h2">Контыкты</h2>
+            <footer class="contacts" id="contacts">
+                <div class="container">
+                    <h2 class="h2">Контыкты</h2>
 
-                <p class="text">Вы можете связаться со мной через</p>
-            </section>
+                    <p class="text">Вы можете связаться со мной через:
+
+                    </p>
+
+                </div>
+
+                <div class="container">
+
+                    <button class="button">
+                        Отправить сообщение
+                    </button>
+
+                    <ul class="social">
+                        <li class="social__item">
+                            <a class="social__link" href="https://www.facebook.com/"><img class="social__img"
+                                    src="./img/facebook.png" alt="sign" width="30"></a>
+                        </li>
+
+                        <li class="social__item">
+                            <a class="social__link" href="https://www.instagram.com"><img class="social__img"
+                                    src="./img/insta.png" alt="sign" width="30"></a>
+                        </li>
+
+                        <li class="social__item">
+                            <a class="social__link"
+                                href="https://www.linkedin.com/in/volodymyr-myroshnychenko-591420347/"><img
+                                    class="social__img" src="./img/linked.png" alt="sign" width="30"></a>
+                        </li>
+                    </ul>
+
+
+                </div>
+
+
+            </footer>
 
         </header>
     </div>
