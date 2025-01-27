@@ -9,6 +9,10 @@
 
 <body>
     <div class="wrapper">
+        <header class="header">
+
+        </header>
+
         <section class="form">
             <h2>Реєстрація</h2>
 
@@ -16,39 +20,76 @@
 
                 <div class="full_name">
                     <label for="name">Повне ім"я</label>
-                    <input type="text" id="name">
+                    <input type="text" id="name" required>
                 </div>
                 <br>
                 <div class="email">
                     <label for="email">Email</label>
-                    <input type="email" id="email">
+                    <input type="email" id="email" required>
                 </div>
                 <br>
                 <div class="password">
                     <label for="password">Пароль</label>
-                    <input type="password" id="password">
+                    <input type="password" id="password" required>
                 </div>
                 <br>
                 <div class="password_rep">
                     <label for="password_02">Пароль ще раз</label>
-                    <input type="password" id="password_02">
+                    <input type="password" id="password_02" required>
                 </div>
                 <br>
                 <div class="gender">
                     Стать
                     <label for="male">
-                        <input type="radio" name="gen" id="male">чоловіча
+                        <input type="radio" name="gen" id="male" required>чоловіча
                     </label>
                     <label for="female">
-                        <input type="radio" name="gen" id="female">жіноча
+                        <input type="radio" name="gen" id="female" required>жіноча
                     </label>
 
                 </div>
+                <br>
+                <div class="age">
+                    <label for="age">Вік
+                        <input type="number" name="age" id="age" required>
+                    </label>
+                </div>
+                <br>
+                <div class="course">
+                    <label for="course">Курс
+                        <select name="course" id="course">
+                            <option value="-=Виберіть курс=-">-=Виберіть курс=-</option>
+                        </select>
+                    </label>
+                </div>
+                <br>
 
+                <div class="adress">
+                    Повна адреса
+                    <textarea name="adress" id="adress" cols="20" rows="8"
+                        placeholder="КраЇна, регіон, місто/селище, вулиця"></textarea>
 
+                </div>
 
+                <br>
+
+                <div class="terms">
+                    <label for="terms">
+                        <input type="checkbox" name="terms" id="terms">Я погоджуюсь з обробкою персональних
+                        даних
+                    </label>
+                </div>
+
+                <br>
+
+                <button type="reset">Очистити форму</button>
+                <button type="submit">Зареєструватися</button>
             </form>
         </section>
+
+        <footer class="footer">
+
+        </footer>
     </div>
 </body>
 
