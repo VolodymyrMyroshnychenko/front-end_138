@@ -11,3 +11,46 @@ img {
 }
 
 /* RESET CSS END */
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+/* HEADER START */
+.header__nav {
+    border-bottom: 1px solid #828282;
+}
+
+.header__list {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.header__link {
+    letter-spacing: 2%;
+    line-height: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #828282;
+    text-decoration: none;
+
+}
+
+
+
+/* HEADER END */
+
+
+/* SECTION HERO START */
+
+
+
+/* SECTION HERO END */
