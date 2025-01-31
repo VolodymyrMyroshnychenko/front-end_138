@@ -50,6 +50,11 @@ body {
 
 
 /* SECTION HERO START */
+
+.hero__container {
+    margin-top: 12px;
+}
+
 .hero__title {
     font-weight: 700;
     font-size: 48px;
@@ -92,7 +97,7 @@ body {
     font-size: 18px;
     line-height: 25px;
     color: #070707;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 
 }
 
