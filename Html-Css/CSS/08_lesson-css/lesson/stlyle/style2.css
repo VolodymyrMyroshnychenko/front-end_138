@@ -1,0 +1,89 @@
+/* Reset start */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Resent end */
+
+/* Псевдо элементы */
+.title::before {
+    content: "😀";
+}
+
+.title::after {
+    content: "**";
+}
+
+.sub-title::after {
+    display: block;
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: brown;
+    margin-left: 30px;
+
+}
+
+.button {
+    padding: 0 49px;
+}
+
+.btn {
+    width: 162px;
+    height: 42px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    line-height: 36px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #06B25F;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.8s;
+
+
+}
+
+.btn:hover {
+
+    background-color: #0B9854;
+
+}
+
+.btn:active {
+
+    background-color: #0F874D;
+
+
+}
+
+.btn--secondary {
+    width: 162px;
+    height: 42px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    line-height: 36px;
+    border: 2px solid #06B25F;
+    color: #06B25F;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.8s;
+}
+
+.btn--secondary:hover {
+    background-color: #06B25F;
+    border: 2px solid #06B25F;
+    color: #FFFFFF;
+
+}
+
+.btn--secondary:active {
+    background-color: #0F874D;
+    color: #FFFFFF;
+    border: 2px solid #06B25F;
+}
