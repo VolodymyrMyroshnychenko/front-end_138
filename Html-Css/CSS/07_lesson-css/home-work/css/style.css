@@ -87,12 +87,13 @@ body {
 /* SECTION HERO END */
 
 
+
+
+
 /* SECTION ABOUT START */
 .section__about {
     background-color: #F6F6F6;
 }
-
-
 
 
 
@@ -101,8 +102,6 @@ body {
     max-width: 480px;
 
 }
-
-
 
 
 
@@ -141,7 +140,7 @@ body {
 }
 
 .portfolio-example {
-    margin-bottom: 70px;
+    padding-bottom: 70px;
 }
 
 .braun-landing-page {
@@ -155,9 +154,19 @@ body {
 
 
 /* Section Contacts start */
-.social-img {
-    width: 40px;
-    height: 40px;
+
+
+
+.heading__contacts {
+    width: 280px;
+    height: 106px;
+    margin-bottom: 60px;
+
 }
+
+.contacts__title {
+    padding-bottom: 20px;
+}
+
 
 /* Section Contacts END */
