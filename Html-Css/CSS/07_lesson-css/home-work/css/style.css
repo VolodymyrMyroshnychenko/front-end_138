@@ -21,6 +21,29 @@ body {
     margin: 0 auto;
 }
 
+
+.sub-title {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    color: #070707;
+
+}
+
+
+.text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #070707;
+    padding-bottom: 30px;
+
+}
+
 /* HEADER START */
 .header__nav {
     border-bottom: 1px solid #828282;
@@ -65,22 +88,13 @@ body {
 
 
 /* SECTION ABOUT START */
-.about {
+.section__about {
     background-color: #F6F6F6;
 }
 
 
 
-.sub-title {
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    font-weight: 700;
-    font-size: 34px;
-    line-height: 46px;
-    color: #070707;
 
-}
 
 .about__text {
     padding-bottom: 100px;
@@ -89,15 +103,61 @@ body {
 }
 
 
-.text {
-    text-align: center;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    color: #070707;
-    padding-bottom: 30px;
 
-}
 
 
 /* SECTION ABOUT END */
+
+
+
+
+/* Section Skills start */
+.skills__title {
+    padding-bottom: 20px;
+}
+
+
+/* Section Skills END */
+
+
+
+
+/* Section Portfolio start */
+
+.section__potfolio {
+    background-color: #F6F6F6;
+}
+
+
+.img__portfolio {
+    padding-bottom: 40px;
+}
+
+
+.text__portfolio {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+
+}
+
+.portfolio-example {
+    margin-bottom: 70px;
+}
+
+.braun-landing-page {
+    padding-bottom: 100px;
+}
+
+/* Section Portfolio END */
+
+
+
+
+
+/* Section Contacts start */
+.social-img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Section Contacts END */
