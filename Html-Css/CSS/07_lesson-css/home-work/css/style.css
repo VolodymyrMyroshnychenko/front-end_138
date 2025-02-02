@@ -162,11 +162,45 @@ body {
     height: 106px;
 
 
+
 }
 
 .contacts__title {
     padding-bottom: 20px;
 }
+
+.links {
+    width: 310px;
+    height: 114px;
+
+
+
+}
+
+.btn {
+    background-color: #070707;
+    color: #FFFFFF;
+    width: 180px;
+    height: 44px;
+    border-radius: 22px;
+    border: none;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-style: "open sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    letter-spacing: 0.1em;
+    text-align: center;
+
+}
+
+.img__links {
+    width: 40px;
+    height: 40px;
+
+}
+
 
 
 /* Section Contacts END */
