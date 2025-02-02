@@ -175,9 +175,11 @@ body {
 
 
 
+
 }
 
 .btn {
+
     background-color: #070707;
     color: #FFFFFF;
     width: 180px;
@@ -186,12 +188,11 @@ body {
     border: none;
     padding-right: 16px;
     padding-left: 16px;
-    font-style: "open sans";
     font-size: 18px;
     font-weight: 700;
     line-height: 24.51px;
-    letter-spacing: 0.1em;
-    text-align: center;
+
+
 
 }
 
